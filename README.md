@@ -29,12 +29,37 @@ The whole interview takes 10–15 minutes.
 
 ---
 
+## Fork Lia for Yourself
+
+Lia is designed to be forked. When you fork it, she knows — and she starts keeping a record.
+
+**Why fork?**
+
+A forked Lia builds a `journey/` directory in your copy of the repo. After each session she
+writes down what she learned about you, where you are on the roadmap, what you said you'd do next,
+and what to pick up from when you come back. Your Lia remembers you.
+
+**How:**
+
+1. Fork this repo on GitHub (or copy it somewhere you own)
+2. Run Lia the same way — `cd lia && claude`
+3. Lia detects she's in a personal copy and enables journey persistence
+4. After your first session, check `journey/` — your profile, your tier, your next step
+
+Each time you return, Lia reads your journey files first and picks up where you left off.
+She skips questions she already knows the answers to and focuses on what's changed.
+
+Over time, `journey/roadmap.md` becomes a live record of your progression from wherever you
+started to wherever you're going.
+
+---
+
 ## What Lia Covers
 
 - Your current development workflow (what you build, how, how often)
 - Your experience with AI coding tools — from zero to daily use
 - What's already in your environment (scripts, config, AI tooling)
-- Where you fall on the adoption curve (Tier 0 through Tier 5)
+- Where you fall on the adoption curve (Tier 0 through Tier 9)
 - The single highest-leverage next move for where you are
 
 ---
@@ -78,8 +103,9 @@ The adoption curve is real. Most engineers are somewhere between "I tried Copilo
 "I delegate whole features." Both are valid starting points. Lia's job is to find the gap between
 where you are and where you could reasonably be, then give you the key that fits.
 
-Tier 0 is a blank slate. Tier 5 is running unsupervised workflows and reviewing diffs.
-Most engineers reading this are somewhere in the middle — and that's exactly where Lia is most useful.
+Tier 0 is a blank slate. Tier 9 is full harness engineering — agents that are inexpensive,
+unspecialized until they have a spec, and cultured like team members. Most engineers reading this
+are somewhere in the middle — and that's exactly where Lia is most useful.
 
 ---
 
